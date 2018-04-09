@@ -190,9 +190,9 @@ var _maq = _maq || [];
         if (document) {
             // params.domain = document.domain || '';
             //params.url = _decode(document.URL) || '';
-            params.url = document.URL || '';
+            params.url = encodeURIComponent(document.URL) || '';
             params.title = document.title || '';
-            params.referrer = document.referrer || '';
+            params.referrer = encodeURIComponent(document.referrer) || '';
         }
         //Window对象数据
         if (window && window.screen) {
