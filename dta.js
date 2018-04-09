@@ -2,7 +2,7 @@ var _maq = _maq || [];
 (function () {
     var _ = {};
     var params = {};
-    var api_host = 'recv.log.dtstack.com';
+    var api_host = 'recevapi.qschou.com';
     var enterTime = null;
 
     if (!Date.prototype.toISOString) {
